@@ -1,0 +1,125 @@
+/* HERO SECTION */
+
+#hero__section {
+    height: 400px;
+    background-image: url(img/bundaran-hi__hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: -70px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hero__section__overlay {
+    background-color: #9C2A10;
+    opacity: 32%;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+#hero__section h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+#hero__section .hero__cta {
+    margin-top: 40px;
+    z-index: 2;
+}
+
+/* SERVICES */
+
+#services__section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#services__section h2 {
+    margin-top: 10px;
+}
+
+.card:not(.card:first-child) {
+    margin-top: 30px;
+}
+
+#services__section .card__cta {
+    padding: 8px 17px;
+    margin-top: 30px;
+}
+
+.card__cta i {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+/* ABOUT SECTION */
+
+#about__section {
+    background-color:#FB6514;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#about__section p {
+    color: rgba(255, 255, 255, 0.823);
+}
+
+#about__section h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#about__section .about__cta {
+    margin-top: 25px;
+    background-color: #fff;
+    color: #FB6514;
+    width: 100%;
+    text-align: center;
+}
+
+.about__section__overlay {
+    font-size: 280px;
+    position: absolute;
+    right: -35px; bottom: 50px;
+    transform: rotate(-30deg);
+    z-index: -2;
+    opacity: .15;
+}
+
+
+/* TEAM SECTION */
+
+#team__section {
+    background-color: #fff;
+    padding-top: 40px;
+    z-index: 3;
+}
+
+#team__section h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: -5px;
+}
+
+.team__cta {
+    margin-top: 25px;
+    text-align: center;
+}
