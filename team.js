@@ -1,8 +1,4 @@
 document.addEventListener("click", function(e){
-    console.log(e.target)
-})
-
-document.addEventListener("click", function(e){
     //OPENING
     if (e.target.classList.contains("card__overlay") && !e.target.parentElement.nextElementSibling.classList.contains("biography__opened")){
         

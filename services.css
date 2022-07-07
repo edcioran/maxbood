@@ -1,0 +1,129 @@
+#hero__section h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+#hero__section {
+    height: 270px;
+    background-image: url(img/about-page__hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: -70px;
+    padding-bottom: 40px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+
+}
+
+.hero__section__overlay {
+    background-color: #691b09;
+    opacity: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.characteristics__card {
+    margin-top: 20px;
+}
+
+.characteristics__card ul {
+    margin-left: 20px;
+}
+
+.characteristics__card ul li {
+    margin-bottom: 15px;
+}
+.characteristics__card ul li p {
+    margin-left: 10px;
+}
+
+#characteristics__section {
+    padding-top: 40px;padding-bottom: 40px;
+}
+h2:not(#hero__section h2) {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#specialties__section .person__card {
+    padding-top: 20px; padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+#specialties__section .person__card:first-of-type{
+    border-radius: 10px 10px 0 0;
+}
+#specialties__section .person__card:nth-last-child(2){
+    border-radius: 0 0 10px 10px;
+}
+
+
+#specialties__section .person__card .left__side {
+    display: flex;
+    align-items: center;
+}
+
+#specialties__section .person__card .left__side i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+#specialties__section .person__card i {
+    color: #444444;
+    font-size: 8px;
+}
+#specialties__section .person__card .person__name {
+    font-weight: 600;
+}
+
+#specialties__section .card__overlay {
+    top: 0;bottom: 0;right: 0;left: 0;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#specialties__section .person__biography {
+    z-index: 10;
+    border-radius: 0;
+    box-shadow: none;
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;padding-bottom: 0;
+
+    transition: .5s ease;
+}
+.person__biography p {
+    text-align: justify;
+    font-size: 14px;
+}
+#specialties__section .biography__opened {
+    padding-bottom: 25px;
+    max-height: 600px;
+}
+
+#specialties__section {
+    background-color: #FB6514;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#specialties__section h2 {
+    color: white;
+}
+#specialties__section >p {
+    color: rgba(255, 255, 255, 0.823);
+}
