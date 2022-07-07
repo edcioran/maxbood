@@ -63,6 +63,7 @@ h2:not(#hero__section h2) {
     position: relative;
     box-shadow: none;
     border-radius: 0;
+    z-index: 2;
 }
 
 #specialties__section .person__card:first-of-type{
@@ -113,17 +114,20 @@ h2:not(#hero__section h2) {
 #specialties__section .biography__opened {
     padding-bottom: 25px;
     max-height: 600px;
+    z-index: 2;
 }
 
 #specialties__section {
-    background-color: #FB6514;
+    background-image: linear-gradient(rgba(114, 72, 0, 0.737), rgba(0, 0, 0, 0.2)),url(img/core-values__bg-img.jpg);
+    background-size: contain;
     padding-top: 40px;
     padding-bottom: 40px;
+    position: relative;
 }
 
 #specialties__section h2 {
     color: white;
 }
 #specialties__section >p {
-    color: rgba(255, 255, 255, 0.823);
+    color: rgba(255, 255, 255, 0.781);
 }
